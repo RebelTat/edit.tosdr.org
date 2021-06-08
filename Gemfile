@@ -5,7 +5,7 @@ ruby '2.3.5'
 
 gem 'postmark-rails'
 
-gem 'activeadmin'
+gem 'activeadmin', '>= 2.0.0'
 gem 'devise'
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
