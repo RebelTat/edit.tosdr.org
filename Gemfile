@@ -30,13 +30,13 @@ gem 'invisible_captcha'
 gem 'coffee-rails'
 
 # for tosback2:
-gem 'capybara'
-gem 'poltergeist'
+gem 'capybara', '>= 3.15.1'
+gem 'poltergeist', '>= 1.18.1'
 gem 'sanitize'
 
 
 group :development do
-  gem 'letter_opener'
+  gem 'letter_opener', '>= 1.7.0'
   gem 'web-console', '>= 3.3.0'
 
   # for performance
