@@ -3,10 +3,10 @@
 source 'https://rubygems.org'
 ruby '2.3.5'
 
-gem 'postmark-rails'
+gem 'postmark-rails', '>= 0.19.0'
 
-gem 'activeadmin'
-gem 'devise'
+gem 'activeadmin', '>= 2.0.0'
+gem 'devise', '>= 4.6.2'
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
@@ -17,27 +17,27 @@ gem 'redis'
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
-gem 'formtastic'
-gem 'jquery-rails'
+gem 'formtastic', '>= 3.1.5'
+gem 'jquery-rails', '>= 4.3.3'
 gem 'paper_trail'
 gem 'pundit'
 gem 'rack-attack'
-gem 'sass-rails'
-gem 'simple_form'
+gem 'sass-rails', '>= 5.0.7'
+gem 'simple_form', '>= 4.1.0'
 gem 'uglifier'
 gem 'rb-readline'
-gem 'invisible_captcha'
-gem 'coffee-rails'
+gem 'invisible_captcha', '>= 0.12.0'
+gem 'coffee-rails', '>= 4.2.2'
 
 # for tosback2:
-gem 'capybara'
-gem 'poltergeist'
-gem 'sanitize'
+gem 'capybara', '>= 3.15.1'
+gem 'poltergeist', '>= 1.18.1'
+gem 'sanitize', '>= 5.0.0'
 
 
 group :development do
   gem 'letter_opener'
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '>= 3.7.0'
 
   # for performance
   gem 'get_process_mem'
