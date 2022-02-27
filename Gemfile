@@ -37,7 +37,7 @@ gem 'sanitize'
 
 group :development do
   gem 'letter_opener'
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '>= 3.7.0'
 
   # for performance
   gem 'get_process_mem'
