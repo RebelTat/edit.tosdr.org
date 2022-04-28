@@ -11,7 +11,7 @@ gem 'figaro'
 gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
 gem 'puma', '~> 3.10.0'
-gem 'rails', '5.1.7'
+gem 'rails', '5.2.7.1'
 gem 'redis'
 
 gem 'autoprefixer-rails'
@@ -37,7 +37,7 @@ gem 'sanitize'
 
 group :development do
   gem 'letter_opener'
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '>= 3.7.0'
 
   # for performance
   gem 'get_process_mem'
