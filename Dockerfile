@@ -1,4 +1,4 @@
-FROM ruby:2.3.5-jessie
+FROM ruby:3.2.0-preview2-slim
 RUN apt-get update -qq && apt-get install -y build-essential libpq-dev
 RUN curl -sS http://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 RUN echo "deb http://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
